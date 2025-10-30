@@ -1,0 +1,57 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+library(plotly)
+library(ggridges)
+
+```
+#### Chart A - Bar Plot
+```{r}
+data("instacart")
+```
+
+```{r}
+aisle_df = instacart |>
+  count(aisle, name = "items_num") |>
+  filter(items_num > 10000)
+aisle_df %>%
+  mutate(count = items_num) %>%
+  plot_ly(x = ~aisle, y = ~count, type = "bar")
+
+```
+
+#### Chart B - Line Plot
+```{r}
+mean_hour_df = instacart |>
+  select(product_name, order_dow, order_hour_of_day) |>
+  filter(product_name %in% c("Pink Lady Apples", "Coffee Ice Cream")) |>
+  group_by(product_name, order_dow) |>
+  summarise(mean_hour = mean(order_hour_of_day))
+
+mean_hour_df %>% 
+  mutate(order_day = order_dow) %>%
+  plot_ly(x = ~order_day, y = ~ mean_hour, color = ~product_name, type = "scatter", mode = "lines+markers")
+  
+```
+
+#### Chart C - Scatter Plot
+```{r}
+department_df = instacart |>
+  count(department)
+department_df %>%
+  mutate(count = n) %>%
+  plot_ly(x = ~department, y = ~count, type = "scatter", mode = "markers")
+```

@@ -1,0 +1,78 @@
+---
+title: "Academic"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Resume
+
+#### EDUCATION
+**Columbia University** 
+
+- Master of Science - Biostatistics
+
+- Expected Graduation: 2027
+
+**University of Washington, Seattle (UW)**
+
+- Bachelor of Science – Biochemistry, Graduation: 2025
+
+- Minor – Data science
+
+- Overall GPA: 3.50/4.0
+
+- Course Highlight – General Biology, General Chemistry, Organic Chemistry, Biochemistry, Genome, Calculus I~III, Multivariable Calculus, Linear Algebra, Probability, R Programming, Python.
+
+#### EXPERIENCE
+**Pulmonary, Critical Care & Sleep Medicine, UW**&emsp;&emsp;Feb 2023 – Jun 2025
+
+*_Lab Assistant, Altemeier Lab&emsp;&emsp;Seattle, WA_*
+- Conducted molecular biology techniques, including PCR, gel electrophoresis, and genotyping, to support research projects.
+
+- Performed cell culture and mouse care (e.g., tail clipping) to maintain experimental integrity.
+
+-	Prepared and sterilized laboratory equipment, ensuring compliance with safety standards.
+
+-	Collaborated with researchers to collect and record experimental data for ongoing biomedical studies.
+
+**IEH Laboratories**&emsp;&emsp;Jun 2024 – Aug 2024
+
+*Lab Technician Intern, Manufacturing Department&emsp;&emsp;Seattle, WA*  
+
+-	Conducted pathogen analysis on food samples using PCR and immunoassay techniques.
+
+-	Carried out TAQ purification for PCR testing.
+
+-	Prepared buffers and media for food testing.
+
+-	Performed environmental sampling and microbial enumeration to ensure safety and quality.
+
+-	Managed testing records and shipping documentation.
+
+**Department of Chemistry, UW**&emsp;&emsp;Nov 2022 – Jun 2025
+
+*Lab Helper, Theberge Group&emsp;&emsp;Seattle, WA*
+
+-	Prepared materials and supplies for human research studies, ensuring accurate and timely delivery for experiments.
+
+-	Coordinated storage and handling of participant samples to maintain data integrity.
+
+-	Established protocols for optimized operational efficiency.
+
+-	Managed social media content for research participant recruitment, enhancing study outreach efforts.
+
+**Olympic Hills Elementary School**&emsp;&emsp;Jan 2022 – Jun 2022
+
+*Teaching Assistant&emsp;&emsp;Seattle, WA*
+
+-	Assisted classroom teaching in managing and monitoring student behavior during class activities.
+
+-	Helped prepare and organize classroom materials such as worksheets, handouts, and instructional materials. 
+
+-	Supported classroom activities and events such as field trips and parties.  
+
+-	Provided additional support to students with special needs or learning disabilities. 
+
+-	Maintained a friendly environment and respectful relationship with students, parents, and school staff.

@@ -1,0 +1,11 @@
+---
+title: "HW4"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+### Introduction
+
+Hi, I am Angela Lin. Here is my homework assignment 4 from data science course. There is a [site page](about.html) of my resume, and links of my email, github, and Facebook. The [Dashboard](plotly.html) links to three distinct plot showing the data visualization from Instacart dataset.   

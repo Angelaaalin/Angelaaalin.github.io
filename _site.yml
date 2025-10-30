@@ -1,0 +1,18 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "Academic"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<al4925@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/Angelaaalin/
+    - text: "Facebook"
+      href: https://www.facebook.com/Angelalin/
+    - text: "Dashboard"
+      href: plotly.html 
+output:
+  html_document:
+    theme: cerulean
